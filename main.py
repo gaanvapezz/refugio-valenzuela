@@ -8,7 +8,6 @@ animal1 = Animal("Luna", "Gato", 3)
 animal2 = Animal ("Rocky", "Perro", 5)
 animal3 = Animal("Kiwi", "Loro", 2)
 
-print(animal1.nombre)
 
 #Presentaciones
 

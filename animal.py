@@ -1,3 +1,4 @@
+import cowsay
 
 class Animal: 
     def __init__(self, param_nombre, param_especie, param_edad):
@@ -8,7 +9,7 @@ class Animal:
 
 
     def presentarse (self):
-       print (f"\nHola, soy {self.nombre}. Especie: {self.especie}. Edad {self.edad} años")
+       cowsay.cow (f"\nHola, soy {self.nombre}. Especie: {self.especie}. Edad {self.edad} años")
 
     def jugar(self):
         self.energia -= 20
@@ -32,4 +33,4 @@ class Animal:
 
     def observar_vida(self):
         print(f"\n({self.nombre}) le queda {self.energia} de energía")
-        
+
